@@ -5,9 +5,9 @@ Live view: https://martin-kristensen-wd.github.io/Guess-My-Number/
 
 ## Screenshot
 
-![](Capture.png)
-![](Capture1.png)
-![](Capture2.png)
+![](Capture1.PNG)
+![](Capture2.PNG)
+![](Capture3.PNG)
 
 ## Built with
 
