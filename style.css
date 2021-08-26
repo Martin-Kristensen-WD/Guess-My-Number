@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+SC&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+
+}
+
+body {
+  font-family: 'Encode Sans SC', sans-serif;
+  color: #eee;
+  background-color: #222;
+}
+
+.entry-section {
+  display: flex; 
+  flex-direction: column;
+  text-align: center;
+  padding: 2em;
+  justify-content: center;
+  align-items: center;
+}
+
+.between {
+  padding-top: 1em;
+  font-size: 2rem; 
+  margin-bottom: 1rem;
+}
+
+.number {
+  background: #eee;
+  color: #333;
+  font-size: 4rem;
+  width: 10rem;
+  padding: 2rem 0rem;
+  margin: 2% auto; 
+  margin-bottom: 1rem;
+}
+
+.guess {
+  background: none;
+  border: 4px solid #eee;
+  border-radius: 2%;
+  font-family: inherit;
+  color: inherit;
+  font-size: 1.5rem;
+  text-align: center;
+  height: 3rem;
+  width: 9.5rem; 
+}
+
+.btn {
+  border:0.16em solid #FFFFFF;
+  background-color: #222;
+  color: #eee;
+  font-size: 1.5rem;
+  font-family: inherit;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  margin-top: 2rem;
+  transition: all 0.15s;
+}
+
+.btn:hover {
+  color:  #222;
+  background-color: #eee;
+}
+
+.score-section {
+  margin-top: 1rem;
+  font-size: 2rem; 
+  padding: 1rem;
+}
+
+.again {
+  font-size: 1.2rem;
+  padding: 0.7rem 0.5rem;
+}
+
+/* 
+Remove arrows for input field in: 
+Chrome, Safari, Edge, Opera 
+*/
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
